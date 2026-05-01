@@ -1,0 +1,71 @@
+﻿/* Dark Theme for VIS Application */
+
+.root {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: #ecf0f1;
+}
+
+.primary-button {
+    -fx-background-color: #2980b9;
+}
+
+.secondary-button {
+    -fx-background-color: #7f8c8d;
+}
+
+.table-view {
+    -fx-background-color: #34495e;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2c3e50;
+}
+
+.table-row-cell {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #3d566e;
+}
+
+.stat-card {
+    -fx-background-color: #34495e;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 2);
+}
+
+.stat-card Label:first-child {
+    -fx-text-fill: #bdc3c7;
+}
+
+.stat-card Label:last-child {
+    -fx-text-fill: #ecf0f1;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+    -fx-border-color: #7f8c8d;
+}
+
+.label-title {
+    -fx-text-fill: #ecf0f1;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #2c3e50;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #3498db;
+}
+
+VBox, HBox {
+    -fx-background-color: transparent;
+}
