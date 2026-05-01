@@ -39,3 +39,25 @@ This is a JavaFX-based Vehicle Information System application.
 # VIS_Application
 VIS Application is a JavaFX desktop system for vehicle management, traffic violation tracking, and service records in Lesotho. Features role-based dashboards for Admin, Police, Customer, and Workshop users with PostgreSQL backend, PDF/CSV reports, and email notifications.
 >>>>>>> 60a0c183562afea58828859525ae42665fbb6a82
+
+# VIS Application - Vehicle Information System
+
+A comprehensive JavaFX desktop application for managing vehicles, traffic violations, service records, and police reports in Lesotho.
+
+## Features
+- 👑 **Admin Dashboard** - User management, analytics, reports
+- 👮 **Police Dashboard** - Violation recording, vehicle search, reports
+- 👤 **Customer Dashboard** - Vehicle registration, violation payment, service scheduling
+- 🔧 **Workshop Dashboard** - Service management, invoicing
+
+## Tech Stack
+- Java 17, JavaFX 25.0.2
+- PostgreSQL 14+
+- Maven
+- iText7 (PDF), ZXing (QR Codes)
+
+## Quick Start
+```bash
+git clone https://github.com/paballophuthi/VIS_Application.git
+cd VIS_Application
+mvn clean javafx:run
