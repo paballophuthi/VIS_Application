@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# VIS_Application - Vehicle Information System
 
 ## Project Structure
@@ -34,3 +35,7 @@ This is a JavaFX-based Vehicle Information System application.
 - iText7 for PDF generation
 - ZXing for QR codes
 - JavaMail for email services
+=======
+# VIS_Application
+VIS Application is a JavaFX desktop system for vehicle management, traffic violation tracking, and service records in Lesotho. Features role-based dashboards for Admin, Police, Customer, and Workshop users with PostgreSQL backend, PDF/CSV reports, and email notifications.
+>>>>>>> 60a0c183562afea58828859525ae42665fbb6a82
